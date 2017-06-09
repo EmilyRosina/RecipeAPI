@@ -3,11 +3,11 @@
 [![N|Solid](https://www.bba.org.uk/wp-content/uploads/2016/07/ICX4-logo.jpg)](http://icx4.com/)
 
 
-#### Scenario
+### Scenario
 A client has asked you to integrate into their existing Recipe Api
 You will create a UI that will statisfy the user requirements
 
-#### User Stories
+### User Stories
 
 |       | As a User I want... | So that I can... |
 |-------| --------------------| ---------------- |
@@ -16,7 +16,7 @@ You will create a UI that will statisfy the user requirements
 
 ---
 
-#### Packages Chosen
+### Packages Chosen
 |Package|Why I chose it...|Knew prior?|
 |-|-|-|
 |[jQuery](http://api.jquery.com/)|to streamline general JS and ajax requests|\* yes/no|
@@ -28,7 +28,7 @@ You will create a UI that will statisfy the user requirements
 \* learned AJAX for this task, both vanilla JS and jQuery, otherwise am familiar with jQuery
 
 
-#### Challenges Overcome
+### Challenges Overcome
 |Challenge|Solution|
 |-|-|
 |Didn't know AJAX|completed most of [Treehouse course](https://teamtreehouse.com/library/ajax-basics) and browsed [jQuery's documentation](http://api.jquery.com/jquery.ajax/)|
@@ -39,7 +39,7 @@ You will create a UI that will statisfy the user requirements
 |Adding a new recipe|i needed an intermediary page that allowed users to enter in basic info for the recipe, then be relocated to the newly created receipe (with id in query string), allowing them to add ingredients - i felt this to be more seamless|
 
 
-#### Things I'd want to improve upon/change
+### Things I'd want to improve upon/change
 |Improvement/Change|Why?|How?|Potential Problems?|
 |-|-|-|-|
 |Make an SPA|better UX, potential to be quicker|learn and implement React or Angular|bookmarking recipes in browser|

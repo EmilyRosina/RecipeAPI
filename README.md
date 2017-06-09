@@ -27,6 +27,7 @@ You will create a UI that will statisfy the user requirements
 
 \* learned AJAX for this task, both vanilla JS and jQuery, otherwise am familiar with jQuery
 
+---
 
 ### Challenges Overcome
 |Challenge|Solution|
@@ -38,6 +39,7 @@ You will create a UI that will statisfy the user requirements
 |Organising CSS code|with no proper training or usage of SASS/LESS/PostCSS - i didn't want to extend time learning them for what should be a short project, so I used basic CSS and split out into main (for shared classes) and a separate stylesheet for each page |
 |Adding a new recipe|i needed an intermediary page that allowed users to enter in basic info for the recipe, then be relocated to the newly created receipe (with id in query string), allowing them to add ingredients - i felt this to be more seamless|
 
+---
 
 ### Things I'd want to improve upon/change
 |Improvement/Change|Why?|How?|Potential Problems?|

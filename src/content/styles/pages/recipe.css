@@ -1,0 +1,51 @@
+﻿.recipe-ingredients {
+    padding: 1em 3em;
+}
+
+.recipe-times {
+    padding-top: 2em;
+}
+
+.table tr.edit-mode .icon--edit,
+.table tr.edit-mode .icon--delete {
+    display: none;
+}
+
+.table tr:not(.edit-mode) td:not(.new-ingredient) .icon--save,
+.table tr:not(.edit-mode) .icon--cancel {
+    display: none;
+}
+
+.table tr:not(.edit-mode) input {
+    display: none;
+}
+
+.table tr.edit-mode .editable > span {
+    display: none;
+}
+
+.table /**bootstrap override**/ {
+    font-size: 2rem;
+}
+
+.table > tbody > tr > td /**bootstrap override**/ {
+    vertical-align: middle;
+}
+
+.table tr td.editable:first-of-type {
+    width: 30%;
+}
+
+.table td.editable > * {
+    padding: 0.25em;
+}
+
+.table td input {
+    width: 100%;
+    border: none;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.table td:last-of-type {
+    min-width: 4em;
+}

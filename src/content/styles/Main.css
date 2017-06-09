@@ -1,0 +1,167 @@
+﻿/*--------------------------------------/
+| << COLOURS >>                         |
+| blue:             lightskyblue        |
+| blue (bright):    deepskyblue         |
+| green (dark):     lightseagreen       |
+| green (bright):   limegreen           |
+| red:              indianred           |
+| grey (light):     whitesmoke          |
+|                                       |
+/--------------------------------------*/
+
+
+/*--------------------------------*/
+/*--[MAIN PAGE BLOCKS]------------*/
+/*--------------------------------*/
+body {
+    background-color: lightskyblue;
+}
+
+header {
+    padding: 2em 0;
+}
+.header__text {
+    color: white;
+    display: inline-block;
+    margin: 0;
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 2em;
+}
+
+
+
+
+/*--------------------------------*/
+/*--[SHARED: ELEMENT BLOCKS]------*/
+/*--------------------------------*/
+/*__time-block__*/
+.time-block {
+    padding: 1em;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    color: rgba(0,0,0,0.5);
+    border: 1em whitesmoke solid;
+}
+.time-block__icon {
+    font-size: 7em;
+    color: rgba(0,0,0,0.2);
+}
+.time-block__title {
+    font-size: 2.75rem;
+    padding: 0;
+    color: white;
+    text-shadow: 1px 1px 2px #aaa;
+    text-align: right;
+}
+.time-block__time,
+.time-block__time:hover {
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.75);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-size: 2rem;
+    border: none;
+}
+.time-block__time:active,
+.time-block__time:focus {
+    border: none;
+    outline: none;
+    color: #666;
+    background-color: #fff;
+}
+
+/*__recipe-name__*/
+.recipe-name > input {
+    width: 100%;
+    border: none;
+    padding: 0.25em;
+    background-color: transparent;
+}
+.recipe-name > input:focus,
+.recipe-name > input:active {
+    background-color: white;
+    border: 2px solid lightseagreen;
+    outline: none;
+}
+
+
+
+
+/*--------------------------------*/
+/*--[SHARED: ICONS]---------------*/
+/*--------------------------------*/
+.icon {
+    color: #ccc;
+    opacity: 0.5;
+}
+.icon:hover,
+.icon:active,
+.icon:focus {
+    opacity: 1;
+}
+.icon--add:hover,
+.icon--add:active,
+.icon--add:focus,
+.icon--save:hover,
+.icon--save:active,
+.icon--save:focus {
+    color: limegreen;
+}
+.icon--edit:hover,
+.icon--edit:active,
+.icon--edit:focus {
+    color: deepskyblue;
+}
+.icon--cancel:hover,
+.icon--cancel:active,
+.icon--cancel:focus {
+    color: indianred;
+}
+.add-recipe {
+    background-color: rgba(0,0,0,0.1);
+    font-size: 2rem;
+    color: #bbb;
+}
+.add-recipe,
+.delete-recipe {
+    padding-top: 0.25em;
+    padding-right: 0;
+    text-align: center;
+    transition: 0.25s;
+    border-radius: 0.5em;
+    vertical-align: middle;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    outline: none;
+    border: none;
+}
+.add-recipe:enabled {
+    background-color: lightseagreen;
+    color: #fff;
+}
+.delete-recipe:hover,
+.delete-recipe:active,
+.delete-recipe:focus {
+    background-color: indianred;
+    color: #fff;
+}
+
+.new-recipe, .new-ingredient {
+    background-color: transparent;
+    font-size: 5rem;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    color: #bbb;
+}
+.new-recipe > a {
+    color: #ccc;
+}

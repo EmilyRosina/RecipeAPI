@@ -1,0 +1,35 @@
+﻿
+/*[from: main.css - 2017-06-09]*/
+.icon-on-hover:not(.edit-mode):after {
+    font-family: "FontAwesome";
+    opacity: 0;
+    transition: 0.25s;
+    padding: 0 0.5em;
+    color: #ccc;
+}
+
+.icon-on-hover:not(.edit-mode):hover:after,
+.icon-on-hover:not(.edit-mode):active:after,
+.icon-on-hover:not(.edit-mode):focus:after {
+    opacity: 1;
+    padding-left: 0.5em;
+}
+
+/*--[icon types]--*/
+.editable.icon-on-hover:not(.edit-mode):after {
+    content: "\f040";
+    color: limegreen;
+}
+
+.deletable.icon-on-hover:not(.edit-mode):after {
+    content: "\f1f8";
+    color: darkred;
+}
+
+
+
+
+/*[from: new-recipe.css - 2017-06-09]*/
+.new-recipe-mode .recipe-ingredients {
+    display: none;
+}

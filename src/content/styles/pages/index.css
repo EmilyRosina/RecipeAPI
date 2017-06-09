@@ -1,0 +1,40 @@
+﻿/*--------------------------------*/
+/*--[LISTS]-----------------------*/
+/*--------------------------------*/
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list > li {
+    margin: 0.75em;
+    background-color: lightseagreen;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+
+
+/*--------------------------------*/
+/*--[LIST LINKS]------------------*/
+/*--------------------------------*/
+.list > li > a.recipe-link,
+.list > li > a.recipe-link:visited {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 100%;
+    display: block;
+}
+
+.list > li > a.recipe-link:hover,
+.list > li > a.recipe-link:active,
+.list > li > a.recipe-link:focus {
+    text-decoration: none;
+    padding-left: 0.5em;
+    font-size: 2.85rem;
+}
